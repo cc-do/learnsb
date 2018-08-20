@@ -25,7 +25,7 @@ public class LearnsbApplication {
         List<String> post = binder.bind("spring2.my-example.url", Bindable.listOf(String.class)).get();
         System.out.println(post.get(0));
         System.out.println(post.get(1));
-//
+
 //        List<PostInfo> posts = binder.bind("com.didispace.posts", Bindable.listOf(PostInfo.class)).get();
 //        System.out.println(posts);
 //
